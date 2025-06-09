@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #999789;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    display: flex;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+}
+
+.container_phones img{
+    display: block;
+    height: 100%;
+    width: 280px;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+}
+
+main input,
+button{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+}
+
+.img_title img{
+    display: block;
+    margin: auto;
+}
+
+button{
+    background-color:#90BCD5;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.591);
+    transition: .3s ease;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin: 10px 5px; 
+    text-decoration: none;
+}
+
+a img{
+    margin: 0 3px;
+}
+.row{
+    text-align: center;
+    padding: 10px;
+}
+
+.row::before,
+.row::after{
+    content: '________________';
+    color: #999789;
+}
+
+.container_loginAndEsqueceu img{
+    width: 20px;
+}
+
+.container_footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container_footer p{
+    text-align: center;
+}
+
+.container_footer p a{
+    display: inline;
+}
+
+.container_footer #obtenha{
+    margin: 10px 0;
+}
+
+.images_footer img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.images_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
